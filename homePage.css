@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+    
+}
+html{
+    background-image: url("/images/PENSIV~1.JPG");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav{
+    display: flex;
+    margin-left: 2em;
+    margin-top: 1%; 
+}
+
+#logo{
+    margin-right: 30px;
+    height: 75%;
+    width: 32vh;
+}
+
+.left-nav a{
+    font-size: 30px;
+    font-weight:300px;
+    text-decoration: none;
+    color: white;
+    margin-top: 0.7vh;
+}
+
+.right-nav{
+    margin-right: 2em;
+    margin-top: 1%; 
+    justify-content: space;
+}
+
+
+.right-nav i2,a,button{
+    font-size: 30px;
+    font-weight:300px;      
+    text-decoration: none; 
+    margin-right: 1.5em;
+    color: #ffff;
+}
+.right-nav button{
+    padding: 6px 10px;
+    background-color:#ce771a; 
+    color: white;
+    border-radius: 10px;
+    font-weight:300px;
+    border-color: #ce771a;
+    box-shadow: 0px 10px 20px 1px black ;
+}
+
+
+#rebirth{
+    margin: 15% 0% 0% 30px;
+    font-size: 1.7vw;
+}
+
+.mid-page2{ 
+    color: #0F5C7A;
+    font-size: 2vw;
+    margin:40% 0 0 10%;
+}
+
+#course-type{
+    border-color: #FF8500;
+    margin: 3% ;
+    height: 50px;       
+    display: flex ;
+}
+
+
+
+
